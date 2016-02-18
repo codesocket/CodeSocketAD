@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Azure.WebJobs;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -11,7 +12,11 @@ namespace CodeSocket_WebJob
     {
         static void Main(string[] args)
         {
-            Trace.TraceError("Something went wrong in this WebJob");
+            var host = new JobHost();
+            Console.Error.Write("An error occurred in this web job");
+
+            host.RunAndBlock();
+
         }
     }
 }
