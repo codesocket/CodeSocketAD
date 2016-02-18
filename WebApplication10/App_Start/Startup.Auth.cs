@@ -7,7 +7,7 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.ActiveDirectory;
 using Owin;
 
-namespace WebApplication9
+namespace WebApplication10
 {
     public partial class Startup
     {
