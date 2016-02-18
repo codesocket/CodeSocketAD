@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication9", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication10", "WebApplication10\WebApplication10.csproj", "{9F1C4AB3-E93D-4D45-9F75-3FF5C9B00033}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSocket-WebJob", "CodeSocket-WebJob\CodeSocket-WebJob.csproj", "{FD5B70D8-852B-4A9E-B277-241F65AEBFFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9F1C4AB3-E93D-4D45-9F75-3FF5C9B00033}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F1C4AB3-E93D-4D45-9F75-3FF5C9B00033}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F1C4AB3-E93D-4D45-9F75-3FF5C9B00033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5B70D8-852B-4A9E-B277-241F65AEBFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5B70D8-852B-4A9E-B277-241F65AEBFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5B70D8-852B-4A9E-B277-241F65AEBFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5B70D8-852B-4A9E-B277-241F65AEBFFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
